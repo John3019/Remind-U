@@ -1,2 +1,1 @@
-# Remind-U
-Remind you app
+# remind-u-chrome-ext

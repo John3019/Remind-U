@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Remind U Quick Launcher</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    rel="stylesheet"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous"
+    />
+    <link href="css/styles.css" rel="stylesheet">
+    
+    <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    rel="stylesheet"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    crossorigin="anonymous"
+    />
+
+    <script src="popup.js"></script>
+    <script src="ClockReminder.js"></script>
+
+  </head>
+
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        <img class="logo-icon" src="images/icon128.png" /> Remind U
+         <!-- <span class="version">(1.0.0)</span> -->
+      </h1>
+    </div>
+    
+    <div class = "random_reminder">
+      <h5 id = "rand_reminder" > We are here for U </h5>
+    </div>
+    <div class="add_reminder">      
+      <h5>Add New Reminder</h5>
+      <form>
+        <p>What to remind you?</p>
+        <input autofocus id="reminder" placeholder="Text" type="text">
+        <p></p>
+        <p>When?</p>
+        <input type="time" id="appt" name="appt" required>
+
+        <p>
+
+        </p>
+        <div> <input type="submit"> </div>
+    </form>
+
+    </div>
+  </body>
+</html>
